@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro component with sign up form
+# Frontend Mentor - News Homepage
 
 # Project Name
 - Practice building out a sign-up form complete with client-side validation using JavaScript.
