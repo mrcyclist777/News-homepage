@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" alt=""/></a>
+        <img src="./assets/images/icon-menu.svg" alt ="" class="icon-menu"/>
+        <div class="drop-menu">
+          <ul class="nav-options">
+            <img src="./assets/images/icon-menu-close.svg" alt="" class="menu-button" />
+            <li class="nav-option">Home</li>
+            <li class="nav-option">New</li>
+            <li class="nav-option">Popular</li>
+            <li class="nav-option">Trending</li>
+            <li class="nav-option">Categories</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="head-box">
+        <div class="head-content">
+          <picture>
+            <source media="(max-width: 850px)" srcset="./assets/images/image-web-3-mobile.jpg">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
+        </picture>
+          <div class="head-text">
+            <div class="text-h2">
+              <h2>
+                The Bright<br />
+                Future of <br />
+                Web 3.0?
+              </h2>
+            </div>
+            <div class="text-p">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="new-box">
+          <h3>New</h3>
+          <div class="new-box-news">
+            <h4>Hydrogen VS Electric Cars</h4>
+            <p class="border">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="new-box-news">
+            <h4>The Downsides of AI Artistry</h4>
+            <p class="border">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="new-box-news">
+            <h4>Is VC Funding Drying Up?</h4>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="info-box">
+          <div class="info-box-news">
+            <div class="image-news">
+              <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+            </div>
+            <div class="text-news">
+              <h2 class="title-number">01</h2>
+              <h3>Reviving Retro PCs</h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="info-box-news">
+            <div class="image-news">
+              <img src="./assets/images/image-top-laptops.jpg" alt="" />
+            </div>
+            <div class="text-news">
+              <h2 class="title-number">02</h2>
+              <h3>Top 10 Laptops of 2022</h3>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="info-box-news">
+            <div class="image-news">
+              <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+            </div>
+            <div class="text-news">
+              <h2 class="title-number">03</h2>
+              <h3>The Growth of Gaming</h3>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
