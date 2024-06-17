@@ -2,7 +2,7 @@
 
 # Project Name
 - Practice building out a sign-up form complete with client-side validation using JavaScript.
-- Live demo [Intro component with sign-up form](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). 
+- Live demo [News Homepage](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). 
 
 ## Table of Contents
 * [General Info](#general-information)
